@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B7F2BD;
+}
+
+.main_title h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #DE2824;
+    margin-top: 100px;
+    font-family: Oswald;
+}
+
+.form input{
+    width: 50%;
+    height: 40px;
+    border: 1px solid #2AE3A1;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Montserrat;
+}
+
+.form button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Montserrat;
+    background-color: #49DA60;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px #313131;
+}
+
+.form button:hover{
+    background-color: #ffffff;
+    color: #49DA60;
+}
+.fa-search{
+    margin-right: 10px;
+}
+
+/*CSS for the list page*/
+
+.frame iframe{
+    width: 15cm;
+    height: 8cm;
+    border: none;
+}
+
+th{
+    color: #098f1f;
+    font-size: 15px;
+    font-family: Montserrat;
+    padding: 10px;
+}
+
+td{
+    color: #000;
+    font-size: 15px;
+    font-family: Montserrat;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #49DA60;
+    padding: 8px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: #ffffff;
+    color: #49DA60;
+}

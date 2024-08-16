@@ -1,0 +1,33 @@
+
+{% extends 'home.html' %}
+
+
+{%block link%}
+    <input id = "url" name = "inp" type="text" placeholder="Paste the URL of the video" required><br><br>
+{%endblock%}
+
+
+{%block content%}
+<table>
+    <div class = "frame">
+        <iframe src = "{{embed}}"></iframe><br><br>
+    </div>
+    
+    <div class ="resolution_table">
+        <thead>
+            <tr>
+                <th>Resolutions</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in res %}
+                <tr>
+                    <td>{{i}}</td>
+                    <td><a href = "{{i}}{{url2}}">Download</a></td>
+                </tr>
+            {% endfor %}
+    </div>
+</table>
+{%endblock%}
+
